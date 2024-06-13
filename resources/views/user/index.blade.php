@@ -1,6 +1,5 @@
-
-    @extends('layouts.app')
-    @section('content')
+@extends('layouts.app')
+@section('content')
     <div class="container mt-5">
         <h1 class="mb-4">User List</h1>
         <a href="{{route('user.create')}}" class="btn btn-primary">Tambah User</a>
@@ -34,5 +33,5 @@
             </tbody>
         </table>
     </div>
-    @endsection
+@endsection
    
